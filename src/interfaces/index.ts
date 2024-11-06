@@ -1,7 +1,6 @@
 interface IService {
-    title: string,
-    icon: string
+    title: string;
+    icon: string;
 }
 
-
-export type { IService }
+export type { IService };

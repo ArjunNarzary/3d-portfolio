@@ -1,5 +1,5 @@
 const StarsCanvas = () => {
-  return <div>Stars</div>
-}
+    return <div>Stars</div>;
+};
 
-export default StarsCanvas
+export default StarsCanvas;
