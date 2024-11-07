@@ -7,9 +7,9 @@ const Colors = {
     'black-200': '#090325',
     'white-100': '#f3f3f3',
     lightWhite: '#f1f1f1',
-    'darkPurple': '#1d1836',
-    'grayBlack': '#232631',
-    'mashColor': "#fff8eb"
+    darkPurple: '#1d1836',
+    grayBlack: '#232631',
+    mashColor: '#fff8eb',
 };
 
 export default Colors;

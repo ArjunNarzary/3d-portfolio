@@ -5,10 +5,8 @@ import { motion } from 'framer-motion';
 import { IService } from '../interfaces';
 import { fadeIn } from '../utils/motion';
 
-interface IServiceCardProps {
+interface IServiceCardProps extends IService {
     index: number;
-    title: IService['title'];
-    icon: IService['icon'];
 }
 
 const ServiceCard = ({ index, title, icon }: IServiceCardProps) => {
