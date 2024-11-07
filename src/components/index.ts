@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import ServiceCard from './ServiceCard';
 import Tech from './Tech';
 import Works from './Works';
+import ExperienceCard from './ExperienceCard';
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 
 export {
@@ -23,4 +24,5 @@ export {
     ComputersCanvas,
     StarsCanvas,
     ServiceCard,
+    ExperienceCard
 };

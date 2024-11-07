@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
 } from '../assets';
-import { IService } from '../interfaces';
+import { IExperience, IService, ITechnology } from '../interfaces';
 
 export const navLinks = [
     {
@@ -60,7 +60,7 @@ const services: IService[] = [
     },
 ];
 
-const technologies = [
+const technologies: ITechnology[] = [
     {
         name: 'HTML 5',
         icon: html,
@@ -115,7 +115,7 @@ const technologies = [
     },
 ];
 
-const experiences = [
+const experiences:IExperience[] = [
     {
         title: 'React.js Developer',
         company_name: 'Starbucks',
