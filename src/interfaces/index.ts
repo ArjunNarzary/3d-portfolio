@@ -17,4 +17,15 @@ interface ITechnology {
     icon: string;
 }
 
-export type { IService, IExperience, ITechnology };
+interface IProject {
+    name: string;
+    description: string;
+    tags: {
+        name: string;
+        color: string;
+    }[];
+    image: string;
+    source_code_link: string;
+}
+
+export type { IService, IExperience, ITechnology, IProject };

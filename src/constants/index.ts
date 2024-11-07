@@ -24,7 +24,7 @@ import {
     tripguide,
     threejs,
 } from '../assets';
-import { IExperience, IService, ITechnology } from '../interfaces';
+import { IExperience, IProject, IService, ITechnology } from '../interfaces';
 
 export const navLinks = [
     {
@@ -195,7 +195,7 @@ const testimonials = [
     },
 ];
 
-const projects = [
+const projects: IProject[] = [
     {
         name: 'Car Rent',
         description:
@@ -263,5 +263,7 @@ const projects = [
 
 const aboutText =
     "I'm a skilled software developer with experience in typeScript and JavaScript, and expertise in frameworks like React, Node.js, and Express.js. I'm a quick learner, and I'm always looking for new things to learn. Let's work together to bring your ideas to life!";
+const projectsText = 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.';
 
-export { services, technologies, experiences, testimonials, projects, aboutText };
+
+export { services, technologies, experiences, testimonials, projects, aboutText, projectsText };
