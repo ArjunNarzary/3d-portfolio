@@ -2,8 +2,6 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { IProject } from '../interfaces'
 import { fadeIn } from '../utils/motion';
-import { max } from 'three/webgpu';
-import { scale } from 'maath/dist/declarations/src/vector2';
 import { github } from '../assets';
 
 

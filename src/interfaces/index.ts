@@ -28,4 +28,12 @@ interface IProject {
     source_code_link: string;
 }
 
-export type { IService, IExperience, ITechnology, IProject };
+interface ITestimonial {
+    testimonial: string;
+    name: string;
+    designation: string;
+    company: string;
+    image: string;
+}
+
+export type { IService, IExperience, ITechnology, IProject, ITestimonial };
